@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <h3>Este é o meu primeiro projeto Javascript</h3>
+    <h3>Contador:</h3>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>
+    <div>
+        <button name="zerar" onclick="zerador()" class = "zero">Zerar</button>
+    </div id="Calculadora">
+    <h3>Calculadora:</h3>
+    <div id="Calculadora">
+        <p id="calculoNumero"></p>
+        <div> 
+            <button name="7" onclick="insert(7)">7</button>
+            <button name="8" onclick="insert(8)">8</button> 
+            <button name="9" onclick="insert(9)">9</button>  
+            <button name="div" onclick="insert('/')">/</button>
+        </div>
+        <div> 
+            <button name="4" onclick="insert(4)">4</button>
+            <button name="5" onclick="insert(5)">5</button> 
+            <button name="6" onclick="insert(6)">6</button>  
+            <button name="vez" onclick="insert('*')">X</button>
+        </div>
+        <div> 
+            <button name="1" onclick="insert(1)">1</button>
+            <button name="2" onclick="insert(2)">2</button> 
+            <button name="3" onclick="insert(3)">3</button>  
+            <button name="men" onclick="insert('-')">-</button>
+        </div>
+        <div> 
+            <button name="0" onclick="insert(0)">0</button>
+            <button name="c" onclick="clean()">C</button>
+            <button name="igu" onclick="calcular()" >=</button> 
+            <button name="mais" onclick="insert('+')">+</button>  
+         
+        </div>
+      
+    </div>
+    <script src="assets/js/scripts.js"></script>
+
+
+
+</body>
+</html>
